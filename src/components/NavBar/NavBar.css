@@ -1,0 +1,38 @@
+.navBarContainer {
+    width: 80%;
+    position: fixed;
+    top: 20px;
+    left:10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dc8099;
+    border-radius: 40px;
+}
+
+.navBarContainer>img {
+    height: 60px;
+}
+
+.navBarButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: #5f0db8;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.activeNavBarButton {
+    background-color: crimson;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
